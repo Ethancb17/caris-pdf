@@ -1,0 +1,106 @@
+body {
+    background: rgb(204,204,204); 
+}
+page[size="A4"] {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+}
+@media print {
+    body, page[size="A4"] {
+        margin: 0;
+    }
+}
+.pdf{
+    width: 21cm;
+    height: 29cm;
+}
+img.firma{
+    position: relative;
+    overflow-x: visible;
+    width: 400px;
+    height: 75px;
+}
+.overSect1{
+    position: absolute;
+    overflow-x: visible;
+    top: 150px;
+    left: 365px;
+}
+.overSect2{
+    position: absolute;
+    overflow-x: visible;
+    top: 1250px;
+    left: 350px;
+}
+/*OverSects del pdf generado*/
+/* 
+.overSect1{
+    position: absolute;
+    overflow-x: visible;
+    top: 92px;
+    left: 22px;
+}
+.overSect2{
+    position: absolute;
+    overflow-x: visible;
+    top: 1225px;
+    left: 22px;
+}
+*/
+.line0{
+    position: absolute;
+    overflow-x: visible;
+    top: 30px;
+}
+.colum0{
+    position: absolute;
+    overflow-x: visible;
+    left: 75px;
+}
+.line1{
+    position: absolute;
+    overflow-x: visible;
+    top: 46px;
+}
+.colum1{
+    position: absolute;
+    overflow-x: visible;
+    left: 151px;
+}
+.line2{
+    position: absolute;
+    overflow-x: visible;
+    top: 624px;
+}
+.colum2{
+    position: absolute;
+    overflow-x: visible;
+    left: 14px;
+}
+.lineFirma{
+    position: absolute;
+    overflow-x: visible;
+    top: 330px;
+}
+.columFirma{
+    position: absolute;
+    overflow-x: visible;
+    left: 100px;
+}
+
+.size-check-radio{
+    position: absolute;
+    overflow-x: visible;
+    font-size: 15px;   
+}
+.size-letter{
+    position: absolute;
+    overflow-x: visible;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+}
