@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 router.get('/preview', function(req, res, next) {
-  res.render('kyc_fisico-OLD', { name: 'Ethan' ,lastname: 'Cordero' });
+  res.render('kyc_fisico', { name: 'Ethan' ,lastname: 'Cordero' });
 });
 
 module.exports = router;
